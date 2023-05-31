@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+/* header{
+    overflow: auto;
+    height: 200px;
+} */
+
+.texto-dscto {
+  background-color: #1cd1b0;
+  height: 40px;
+  width: 100%;
+}
+
+.texto-dscto p {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.titulo-principal {
+  background-color: #00669f;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  /* top: 20px; */
+  filter: drop-shadow(0 10px 7px rgba(0, 0, 0, 0.25));
+}
+
+h1 {
+  display: block;
+  position: absolute;
+  font-weight: 400;
+  left: 30px;
+  top: 20px;
+  font-size: 40px;
+}
+
+/* Main */
+
+main {
+}
+
+.contenedor-cards {
+  position: absolute;
+  top: 292px;
+  left: 11%;
+  height: 530px;
+  width: 78%;
+}
+
+.card {
+  height: 530px;
+  width: 300px;
+  position: absolute;
+  border-radius: 16px 16px 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-1 {
+  left: 0;
+}
+
+.card-2 {
+  left: 445px;
+}
+
+.card-3 {
+  margin-left: 885px;
+}
+
+.img-superior {
+  margin-top: -2px;
+  width: 298px;
+  height: 194px;
+}
+
+.icon-heart {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 15px;
+  left: 21px;
+}
+
+.descripcion {
+  position: absolute;
+  width: 298px;
+  height: 336px;
+  top: 191px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #f3f3f3;
+}
+
+h2 {
+  position: absolute;
+  top: 74px;
+  left: 89px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.descripcion p {
+  position: absolute;
+  top: 119px;
+  left: 16px;
+  width: 267px;
+  height: 113px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.personaje {
+  position: absolute;
+  left: 90px;
+  top: 127px;
+  width: 120px;
+  height: 120px;
+}
+
+.boton {
+  position: absolute;
+  height: 48.52px;
+  width: 128.78px;
+  background-color: #00669f;
+  left: 85px;
+  top: 463px;
+}
+
+.texto-boton {
+  color: #f3f3f3;
+  position: absolute;
+  top: 15px;
+  left: 37px;
+}
+
+footer {
+  position: absolute;
+  top: 972px;
+  background-color: #00669f;
+  height: 51px;
+  width: 100%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer p {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: #fff9f9;
+  font-weight: 400;
+}
